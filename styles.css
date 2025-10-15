@@ -1,0 +1,75 @@
+:root{
+  --bg:#0f1720;
+  --card:#0b1220;
+  --text:#e6eef8;
+  --muted:#9fb0c7;
+  --accent:#6ee7b7;
+  --radius:12px;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Helvetica Neue", monospace;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:linear-gradient(180deg,#071226 0%, #0b1220 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.5;
+}
+.container{
+  max-width:900px;
+  margin:36px auto;
+  padding:20px;
+}
+.card{
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-radius:var(--radius);
+  padding:18px;
+  margin:18px 0;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+.hero-inner{
+  display:flex;
+  gap:18px;
+  align-items:center;
+}
+.avatar{
+  width:96px;
+  height:96px;
+  border-radius:14px;
+  object-fit:cover;
+  border:1px solid rgba(255,255,255,0.06);
+}
+h1{margin:0 0 4px 0;font-size:1.6rem}
+.subtitle{margin:0;color:var(--muted);font-size:0.95rem}
+.contact-links{margin:10px 0 0 0;display:flex;gap:10px;flex-wrap:wrap}
+.badge-link{
+  display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--text);
+  text-decoration:none;padding:6px 8px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);
+  transition:transform .14s ease, background .12s;
+  font-size:0.93rem;
+}
+.badge-link img{width:18px;height:18px;display:block;filter:brightness(1.2)}
+.badge-link:hover{transform:translateY(-3px);background:rgba(255,255,255,0.02)}
+.badges-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.skill-badge{
+  display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,0.02);
+  font-weight:600;color:var(--text);
+}
+.skill-badge img{width:18px;height:18px}
+.skill-badge.simple{padding:8px 12px;border:1px solid rgba(255,255,255,0.03)}
+.projects-list{margin:0;padding-left:18px}
+.analytics{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.count{display:flex;flex-direction:column;align-items:flex-start}
+.count strong{font-size:1.6rem;color:var(--accent)}
+.sparkline{min-width:180px;height:40px}
+.analytics-note{color:var(--muted);font-size:0.9rem;margin:6px 0 0 0}
+.footer{text-align:center;color:var(--muted);font-size:0.9rem}
+a{color:var(--accent)}
+@media (max-width:640px){
+  .hero-inner{flex-direction:row}
+  .avatar{width:80px;height:80px}
+}

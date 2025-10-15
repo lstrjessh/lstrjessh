@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lester Heyrana — Minimal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Lester Heyrana — minimal portfolio and contact" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="hero-inner">
+        <img class="avatar" src="badges/profile-placeholder.svg" alt="Profile" />
+        <div>
+          <h1>Lester Heyrana</h1>
+          <p class="subtitle">Software engineer — minimal portfolio</p>
+          <p class="contact-links">
+            <a class="badge-link" href="Resume.pdf" download title="Download Resume">
+              <img src="badges/resume.svg" alt="resume" /> Resume
+            </a>
+            <a class="badge-link" href="mailto:lesterjess.heyrana@g.msuiit.edu.ph" title="Email">
+              <img src="badges/email.svg" alt="email" /> Email
+            </a>
+            <a class="badge-link" href="https://github.com/lstrjessh" target="_blank" rel="noopener">
+              <img src="badges/github.svg" alt="github" /> GitHub
+            </a>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        Hi — I'm Lester. I build web apps and APIs with modern JavaScript and frameworks.
+        This is a minimal portfolio built from your resume content. Add projects or tweak copy as needed.
+      </p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="badges-row">
+        <div class="skill-badge"><img src="badges/skill-js.svg" alt="JS" /> JavaScript</div>
+        <div class="skill-badge"><img src="badges/skill-react.svg" alt="React" /> React</div>
+        <div class="skill-badge simple">APIs</div>
+        <div class="skill-badge simple">Node.js</div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <strong>Project One</strong> — short description. Link to repo or demo.
+        </li>
+        <li>
+          <strong>Project Two</strong> — short description. Add links to share.
+        </li>
+      </ul>
+    </section>
+
+    <section id="analytics" class="card">
+      <h2>Profile visits</h2>
+      <div id="analytics-root" class="analytics">
+        <div class="count">
+          <strong id="visits-total">—</strong>
+          <span>total visits</span>
+        </div>
+        <div id="sparkline" class="sparkline" aria-hidden="true"></div>
+        <p class="analytics-note">Counts are public and stored on CountAPI (anonymous).</p>
+      </div>
+    </section>
+
+    <footer class="footer card">
+      <p>Made with a minimal style · <a href="https://github.com/lstrjessh" target="_blank" rel="noopener">GitHub</a></p>
+    </footer>
+  </main>
+
+  <script src="scripts/analytics.js"></script>
+</body>
+</html>
