@@ -26,9 +26,3 @@ I am a Computer Engineer with experience in embedded systems, software developme
 
 - **Bachelor of Science in Computer Engineering**  
   Mindanao State University – Iligan Institute of Technology (MSU-IIT)
-
----
-
-## Contact
-
-- **Email:** [lesterjess.heyrana@g.msuiit.edu.ph](mailto:lesterjess.heyrana@g.msuiit.edu.ph)
