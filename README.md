@@ -3,9 +3,6 @@
 <h1 align="center">Lester Jess Heyrana</h1>
 <p align="center">
   <strong>Computer Engineer | Embedded Systems | Python & C++ | Machine Learning | Web Development</strong>
-  <br>
-  <a href="https://github.com/lstrjessh/lstrjessh/blob/main/Resume.pdf">Resume</a> •
-  <a href="mailto:lesterjess.heyrana@g.msuiit.edu.ph">Email</a>
 </p>
 
 ---
