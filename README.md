@@ -25,20 +25,6 @@ I am a Computer Engineer with experience in embedded systems, software developme
 
 ---
 
-## Featured Projects
-
-- **Profile & Portfolio:**  
-  [lstrjessh/lstrjessh](https://github.com/lstrjessh/lstrjessh)  
-  This repository serves as my public profile hub, with my resume and links to selected projects.
-  
-<!-- Example pinned projects, update links and descriptions as needed -->
-<!--
-- **Project Name:**  
-  [username/project-repo](project-link)  
-  Short description of your project, technologies used, and purpose.
--->
----
-
 ## Education
 
 - **Bachelor of Science in Computer Engineering**  
