@@ -49,11 +49,3 @@ I am a Computer Engineer with experience in embedded systems, software developme
 ## Contact
 
 - **Email:** [lesterjess.heyrana@g.msuiit.edu.ph](mailto:lesterjess.heyrana@g.msuiit.edu.ph)
-- **GitHub:** [lstrjessh](https://github.com/lstrjessh)
-- **Resume:** [PDF Download](https://github.com/lstrjessh/lstrjessh/blob/main/Resume.pdf)
-
----
-
-<p align="center">
-  <em>Building reliable solutions from embedded systems to intelligent applications.</em>
-</p>
